@@ -7,7 +7,7 @@ moveit_setup_assistant_config:
   package_settings:
     author_name: StvLi
     author_email: 3190102290@zju.edu.cn
-    generated_timestamp: 1679825417
+    generated_timestamp: 1679933875
   control_xacro:
     command:
       - position
