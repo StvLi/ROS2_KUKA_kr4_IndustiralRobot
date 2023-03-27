@@ -1,20 +1,21 @@
-<package format="3">
+<package format="2">
   <name>kuka_kr4_description</name>
   <version>1.0.0</version>
   <description>
-    <p>URDF Description package for kuka_kr4_config</p>
+    <p>URDF Description package for kuka_kr4_description</p>
     <p>This package contains configuration data, 3D models and launch files
-for kuka_kr4_config robot</p>
+for kuka_kr4_description robot</p>
   </description>
-  <author>StvLi</author>
-  <maintainer email="3190102290@zju.edu.cn" />
+  <author>TODO</author>
+  <maintainer email="TODO@email.com" />
   <license>BSD</license>
-  
-  <buildtool_depend>ament_cmake</buildtool_depend>
-  <test_depend>ament_lint_auto</test_depend>
-  <test_depend>ament_lint_common</test_depend>
-  
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>roslaunch</depend>
+  <depend>robot_state_publisher</depend>
+  <depend>rviz</depend>
+  <depend>joint_state_publisher_gui</depend>
+  <depend>gazebo</depend>
   <export>
-     <build_type>ament_cmake</build_type>
+    <architecture_independent />
   </export>
 </package>
